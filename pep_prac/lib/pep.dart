@@ -53,14 +53,17 @@ class pepState extends State<pep>
         ),
 
       bottomNavigationBar: new BottomAppBar(
+
+
         color: Colors.grey,
         shape: CircularNotchedRectangle(),
         notchMargin: 4.0, // this is where i made the notch
+
         child: new Row(
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            IconButton(icon: Icon(Icons.menu), onPressed: () {},),
+            IconButton(icon: Icon(Icons.home), onPressed: () {},),
             IconButton(icon: Icon(Icons.search), onPressed: () {},),
           ],
         ),
